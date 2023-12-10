@@ -11,6 +11,10 @@
     
     <p>{{ tagline }}</p>
 
-    <h1> Translation </h1>
+    <h1> Speech </h1>
+    <audio controls>
+        <source src="{{ audio_url }}" type="audio/wav">
+        <p>{{speech_file_path}}</p>
+    </audio>
 </body>
 </html>
